@@ -1,0 +1,26 @@
+h1{
+     background-color:rgb(34, 14, 121);
+     color: salmon;
+     font-size: 51px;
+     font-weight: bolder;
+}
+p{
+    background-color: aquamarine;
+    color:#008234
+}
+.nice{
+    color:red;
+    font-weight: 600;
+}
+blockquote{
+    color: deepskyblue;
+}
+h3{
+    font-size: 2em;
+}
+em{
+    font-size: 5em;
+}
+.wtf{
+    color:blue;
+}
