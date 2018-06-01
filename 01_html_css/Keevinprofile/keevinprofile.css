@@ -1,22 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+.myclass{
+    color: black;
+    text-align:center;
+    background-image: url('http://3.bp.blogspot.com/-Eawqt3rl-Kw/UVVHRMss4FI/AAAAAAAACiI/8BxWSi68iTg/s1600/Cool_Backgrounds_Pics_black_white_kitties_wallpaper.jpg');
+}
+.divclass{
+    background-color:whitesmoke;
+    max-width: 600px;
+    text-align:center;
+    margin: 100px 500px;
+    border: 1px solid orange;
+}
+.myface{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height:150px;
+    width: 150px;
+    margin-top: -80px;
+    border: 1px solid orangered;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;    
+}
+
+hr{
+    width: 50%;
+    height: 5px;
+    background-color:red;
+    border:1px solid red;
+}
 
 .my-form{
 	font-family: "Lato";
 	max-width: 400px;
-	padding: 10px;
-	margin: auto;
+    padding: 10px;
+    margin:auto;
+    
 	border: 1px solid black;
 }
 
 /*1. add margin spacing for top & bottom: 20px */
 .my-form-group{
-	margin: 20px 0;
+	margin: 20px;
 }
 
 /*This selector refers to ALL <input> */
 input[type]{
-	-webkit-appearance: none;/*removes browser override style on mac*/
-
 	/*2. set the width to fill container: 100% */
 	/*3. increase font size to: 1.5rem */
 	/*4. increase height to: 2rem */
@@ -78,4 +110,8 @@ input[type=submit]:hover{
 /*this optional style removes the yellow background of chrome's autofill*/
 input[type]:-webkit-autofill {
     box-shadow: 0 0 0px 1000px white inset;
+}
+
+table{
+    margin:auto;
 }
