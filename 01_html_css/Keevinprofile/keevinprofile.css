@@ -1,12 +1,11 @@
 .myclass{
     color: black;
-    text-align:center;
     background-image: url('http://3.bp.blogspot.com/-Eawqt3rl-Kw/UVVHRMss4FI/AAAAAAAACiI/8BxWSi68iTg/s1600/Cool_Backgrounds_Pics_black_white_kitties_wallpaper.jpg');
 }
 .divclass{
-    background-color:whitesmoke;
+	background-color:whitesmoke;
+	text-align: center;
     max-width: 600px;
-    text-align:center;
     margin: 100px 500px;
     border: 1px solid orange;
 }
@@ -114,4 +113,7 @@ input[type]:-webkit-autofill {
 
 table{
     margin:auto;
+}
+.my-link{
+	text-align: center;
 }

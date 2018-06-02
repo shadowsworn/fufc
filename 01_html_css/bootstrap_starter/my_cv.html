@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Walkthrough</title>
 
     <!-- default bootstrap -->
@@ -10,7 +11,7 @@
     <!-- try themes from: https://startbootstrap.com/-->
     <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="theme2.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="theme3.css"> -->
+    <link rel="stylesheet" type="text/css" href="theme3.css">
     <link rel="stylesheet" type="text/css" href="theme4.css">
 
     <!-- font awesome -->
@@ -19,16 +20,266 @@
     <!-- animate.css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
     
+    <link rel="stylesheet" href="custom.css">
+
     <!-- use this style for testing and development purposes -->
     <!-- <style type="text/css">
     .container{border: 2px dotted green;}
     .row{border: 1px dotted red;}
-    .row [class*=' col-']{border: 2px dotted purple;}
+    .row [class*='col-']{border: 2px dotted purple;}
     </style> -->
     
 </head>
 <body>
-    dsfkjlfdsg;dsgdsbgkdsfjbgkdsfbglkdsfbgdsfsdfngdskfngsdlfndsfsdlkfjbglkfdsbgdsgf
+    <div class="container">
+        <div class="row">    <!--row 1-->
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1>
+                        CODE, EAT, SLEEP, REPEAT
+                    </h1>
 
+                    <p>
+                        KEEVIN CHENG
+                    </p>
+
+                    <p>
+                        <a class="btn btn-danger" href="https://www.google.com" target="_blank" type="button">
+                            Learn more
+                        </a>
+                    </p>
+                </div>    
+            </div>
+        </div>
+
+        <div class="row">    <!--row 2-->
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Scientist.svg/400px-Scientist.svg.png" alt="placeholder">
+                    <div class="caption">
+                        <h3>
+                            My Hobbies
+                        </h3>
+                        <p>
+                            soccer, floorball
+                        </p>
+                        <p>
+                            <a class="btn btn-primary" href="#">
+                                View More
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://i.pinimg.com/originals/3f/6d/03/3f6d0343523055c2fdf0f3b733668167.jpg" alt="placeholder">
+                    <div class="caption">
+                        <h3>
+                            My Favourite Foods
+                        </h3>
+                        <p>
+                            Chicken Rice, Burgers
+                        </p>
+                        <p>
+                            <a class="btn btn-primary" href="#">
+                                View More
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://i.pinimg.com/originals/10/83/d0/1083d06f54f86b5441cf22eb70ff89d1.png" alt="placeholder">
+                    <div class="caption">
+                        <h3>
+                            My Life
+                        </h3>
+                        <p>
+                            Family, Friends, Work
+                        </p>
+                        <p>
+                            <a class="btn btn-primary" href="#">
+                                View More
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>                  
+        </div>
+
+        <div class="row">    <!--row 3-->
+            <div class="col-md-12">
+                <p class="cavs">
+                    Cavs vs Warriors
+                </p>
+               <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mvulvk-bBx0" frameborder="0" allow="autoplay; encrypted-media">
+                    </iframe>
+                </div>
+                <br>
+                 <p>
+                    Cavs vs Warriors
+                </p>
+            </div>
+        </div>
+
+        <div class="row">    <!--row 4-->
+            <div class="col-md-6">
+                <h3>
+                    Talk to me
+                </h3>
+                
+                <Form>
+                    <div class="form-group">
+                        <label for="myname">Name</label>
+                        <input type="text" class="form-control" name="my_name" id="myname"> 
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="asd">Email</label>
+                        <input type="email" class="form-control" name="" id="asd">
+
+                    </div>
+
+                    <div class="form-group">
+                        <div class="radio">
+                            <label for="my_radio1">
+                                <input type="radio" class="my-radio" name="my_radio1" id="my_radio1"> Newsletter
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="my_radio2">
+                                <input type="radio" class="my-radio" name="my_radio1" id="my_radio2"> Registration
+                            </label>
+                        </div>                       
+                        
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Drop me an email">
+
+                    </div>
+
+                </Form>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <h3>About Me</h3>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati inventore est velit qui illo reiciendis, error repudiandae explicabo aspernatur, a distinctio doloremque minima doloribus. Illo mollitia alias nostrum commodi fugit!
+                </p>
+            </div>
+        </div>
+
+        <div class="row">    <!--row 5-->
+            <div class="col-md-4">
+                <h3>
+                    Working hours
+                </h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            Day
+                        </th>
+                        <th>
+                            Hours
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Monday to Thursday
+                        </td>
+                        <td>
+                            9am-6pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Friday and Saturday
+                        </td>
+                        <td>
+                            9am-6pm
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Sunday
+                        </td>
+                        <td>
+                            9am-6pm
+                        </td>
+                    </tr>
+
+
+                </table>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <p>Where I am now</p>
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.795462238928!2d103.78531511388361!3d1.2974123990537223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fdcdcb793%3A0x560828fd88f7aa6!2sJTC+Launchpad!5e0!3m2!1sen!2ssg!4v1527912576244" frameborder="0">
+                    </iframe>
+                </div>          
+            </div>
+
+            <div class="col-md-4">
+                <h3>Check me out</h3>
+                <div class="list-group">
+                    <a href="tel:999" class="list-group-item">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        +65 9999999999
+                    </a>
+                    <a href="mailto:keevs@g.com" class="list-group-item">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        keevs@g.com
+                    </a>
+                    <a href="https://www.google.com" class="list-group-item">
+                        <i class="fa fa-address-book-o"></i>
+                        https://www.google.com
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">    <!--row 6-->
+            <div class="col-md-12 text-center">
+                <br>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target="_blank">
+                            <i class="fa fa-google"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i class="fa fa-snapchat"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
